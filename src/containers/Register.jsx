@@ -9,9 +9,9 @@ const Register = () => (
         <input className='input' type='text' placeholder='Nombre' />
         <input className='input' type='text' placeholder='Correo' />
         <input className='input' type='password' placeholder='Contraseña' />
-        <button className='button'>Registrarme</button>
+        <button type='button' className='button'>Registrarme</button>
       </form>
-      <a href=''>Iniciar sesión</a>
+      <a href='/'>Iniciar sesión</a>
     </section>
   </section>
 );
